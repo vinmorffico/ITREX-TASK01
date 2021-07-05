@@ -15,7 +15,7 @@ async function showExchangeRate () {
     setTimeout(showExchangeRate, 3600000); // updated every hour
     displayTime();
   } catch (err) {
-    alert("Ошибка чтения файла", err.message); 
+    alert("Error receiving data", err.message);
   }
   };
   
